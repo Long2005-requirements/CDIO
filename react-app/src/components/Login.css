@@ -1,0 +1,92 @@
+.login-page {
+  height: 100vh;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.login-card {
+  background: #fff;
+  width: 360px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.login-card input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.login-card input:focus {
+  outline: none;
+  border-color: #1877f2;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 14px;
+  background: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.forgot {
+  display: block;
+  text-align: center;
+  margin: 14px 0;
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.btn-create {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(50, 227, 50);
+  color: black;
+  padding: 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+   box-sizing: border-box;
+}
+
+.message {
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.message.success {
+  background: #e7f3ff;
+  color: #1877f2;
+  border: 1px solid #1877f2;
+}
+
+.message.error {
+  background: #fdecea;
+  color: #e53935;
+  border: 1px solid #e53935;
+}
+

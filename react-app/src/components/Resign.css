@@ -1,0 +1,136 @@
+/* Bọc toàn trang */
+.register-page {
+  min-height: 100vh;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Thẻ form */
+.register-card {
+  width: 430px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+
+/* Tiêu đề */
+.register-card h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.register-card p {
+  margin: 5px 0 15px;
+  color: #606770;
+  font-size: 15px;
+}
+
+/* Input chung */
+.register-card input,
+.register-card select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.register-card input:focus,
+.register-card select:focus {
+  outline: none;
+  border-color: #1877f2;
+}
+
+/* Họ & tên */
+.name-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.register-card label{
+  margin: 5px 0 15px;
+  color: #606770;
+  font-size: 15px;
+}
+/* Ngày sinh */
+.birthday-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+/* Giới tính */
+.gender-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.radio-box {
+  flex: 1;
+  border: 1px solid #ccd0d5;
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+.radio-box:hover {
+  border-color: #1877f2;
+}
+
+/* Text nhỏ */
+.signup-card small {
+  font-size: 11px;
+  color: #777;
+  display: block;
+  margin: 10px 0;
+}
+
+/* Nút đăng ký */
+.btn-signup {
+  width: 100%;
+  background: #00a400;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.btn-signup:hover {
+  background: #008f00;
+}
+
+/* Link đăng nhập */
+.login-link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+}
+.error-msg {
+  background: #fdecea;
+  color: #e53935;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  text-align: center;
+}
